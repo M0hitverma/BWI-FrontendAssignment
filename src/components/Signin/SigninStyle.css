@@ -1,0 +1,34 @@
+.maindiv{
+   width: 100vw;
+    height:92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+
+  color:black;
+}
+.inputfield{
+    display: flex;
+    flex-direction: row;
+   
+}
+.formcontainer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+}
+.button{
+    background-color:rgb(254, 252, 248);
+    color: black;
+    padding:0.5rem 1rem;
+
+}
+input::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
